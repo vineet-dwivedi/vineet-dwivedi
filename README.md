@@ -60,7 +60,9 @@ I focus on structure, performance, and long-term maintainability — not just sh
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=vineet-dwivedi&theme=tokyonight" />
 </p>
+
 ---
+
 
 ## 🧠 Engineering
 
