@@ -58,10 +58,8 @@ I focus on structure, performance, and long-term maintainability — not just sh
 ## 📊 GitHub Activity
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=vyukxce&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" />
-  <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=vyukxce&theme=tokyonight&hide_border=true&background=0D1117" />
+  <img src="https://raw.githubusercontent.com/vyukxce/vyukxce/output/github-contribution-grid-snake-dark.svg" />
 </p>
-
 ---
 
 ## 🧠 Engineering
