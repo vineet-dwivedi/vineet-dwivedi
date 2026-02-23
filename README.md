@@ -6,7 +6,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,100:2C5364&height=160&section=header&text=Vineet%20Dwivedi&fontSize=35&fontColor=ffffff&animation=fadeIn" />
 
 <p align="center">
-  <b>Full Stack Developer ⚙️ · SDE Intern 🧠 · AI Systems Builder 🤖</b>
+  <b>Full Stack Developer  · SDE Intern  · AI Systems Builder </b>
 </p>
 
 <p align="center">
