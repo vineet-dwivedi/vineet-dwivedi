@@ -24,15 +24,15 @@ Full Stack Engineer with 6 months of hands-on development experience, focused on
 
 Currently working as an **SDE Intern at Flowaris Technologies 🏢**, contributing to:
 
-🔹 AI Agent Development (Sarvam AI Integration 🤖)  
-🔹 CRM Dashboard Architecture 📊  
-🔹 Learn English Speaking Platform using LiveKit 🎙️ (Real-Time Systems)
+🔹 AI Agent Development (Sarvam AI Integration)  
+🔹 CRM Dashboard Architecture  
+🔹 Learn English Speaking Platform using LiveKit (Real-Time Systems)
 
 I care about structure, performance, and long-term maintainability — not just shipping features.
 
 ---
 
-## 🎵 Flagship Project — SYSC
+## Flagship Project — SYSC
 
 **Full Stack Music Platform (Built & Deployed Independently)**
 
