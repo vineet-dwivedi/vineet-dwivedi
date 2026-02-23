@@ -58,7 +58,7 @@ I focus on structure, performance, and long-term maintainability — not just sh
 ## 📊 GitHub Activity
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/vyukxce/vyukxce/output/github-contribution-grid-snake-dark.svg" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=vineet-dwivedi&theme=tokyonight" />
 </p>
 ---
 
