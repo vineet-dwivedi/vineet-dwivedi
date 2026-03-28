@@ -21,9 +21,7 @@
 <br/>
 
 <br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2500&pause=1000&color=38BDF8&center=true&vCenter=true&width=300&lines=264+Contributions+in+2026;AI+Search+Engine+Live;Full+Stack+%E2%80%A2+Gen+AI" alt="Status" />
-
+<img src="https://github-readme-stats.vercel.app/api?username=vineet-dwivedi&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=00000000" />
 <br/>
 
 </div>
