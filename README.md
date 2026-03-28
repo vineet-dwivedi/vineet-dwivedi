@@ -145,7 +145,7 @@ const vineet = {
 ## 🐍 Contribution Graph
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/vineet-dwivedi/vineet-dwivedi/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
+  <img src="https://github.com/vineet-dwivedi/vineet-dwivedi/blob/main/workflows/snake.yml" alt="snake animation" />
 </div>
 
 ---
