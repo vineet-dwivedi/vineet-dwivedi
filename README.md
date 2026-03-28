@@ -1,23 +1,20 @@
-<!-- ========================================================= -->
 <!-- HERO -->
-<!-- ========================================================= -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&customColorList=6,12,20&text=VINEET%20DWIVEDI&fontSize=45&fontAlignY=35&desc=AI%20Systems%20%7C%20Full-Stack%20Engineering&descSize=18&descAlignY=55&animation=twinkling" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=190&color=gradient&customColorList=6,12,20&text=VINEET%20DWIVEDI&fontSize=42&fontAlignY=35&desc=AI%20Systems%20%7C%20Full-Stack%20Engineering&descSize=16&descAlignY=55&animation=fadeIn" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Building+AI-powered+real-time+applications;Perplexity-style+AI+Search+%7C+LangChain+%7C+Next.js;From+idea+to+production+fast" />
-
-<br/>
-
-![AI Systems Builder](https://img.shields.io/badge/AI%20Systems%20Builder-7F5AF0?style=for-the-badge)
-![SDE Intern](https://img.shields.io/badge/SDE%20Intern-Flowaris%20Technologies-00D9FF?style=for-the-badge)
-![Open to Opportunities](https://img.shields.io/badge/Open%20to%20Opportunities-FF6B6B?style=for-the-badge)
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2800&pause=800&color=38BDF8&center=true&vCenter=true&width=650&lines=Building+AI-powered+real-time+applications;Perplexity-style+AI+Search+%7C+LangChain+%7C+Next.js;From+idea+to+production+fast" />
 
 <br/>
+
+<img src="https://komarev.com/ghpvc/?username=vineet-dwivedi&label=Profile%20views&color=0e75b6&style=flat" />
+
+<br/><br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/vineet-dwivedi)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/vineet-dwivedi)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat&logo=vercel&logoColor=white)](https://os-portfolio-sigma-taupe.vercel.app)
+[![Email](https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white)](mailto:vineetdwivedi409@gmail.com)
 
 </div>
 
@@ -56,71 +53,83 @@ const vineet = {
 
 ## 🏆 Featured Projects
 
-### 🤖 Clario-AI — AI Search Engine
+### 🤖 [Clario-AI](https://github.com/vineet-dwivedi/clario-ai) — AI Search Engine
 
-🔗 [github.com/vineet-dwivedi/clario-ai](https://github.com/vineet-dwivedi/clario-ai)
-
-**Stack:** Next.js · LangChain · OpenAI · Redis
+**Stack:**
+![Next.js](https://img.shields.io/badge/Next.js-000?logo=nextdotjs&logoColor=white&style=flat)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?logo=langchain&logoColor=white&style=flat)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?logo=openai&logoColor=white&style=flat)
+![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white&style=flat)
 
 - Real-time web search + AI synthesis
 - GPT-powered structured responses
 - Redis caching for performance
 
-> 💡 **Problem Solved:** Reduces information overload by converting raw search results into structured AI answers
+> 💡 Reduces information overload by converting raw search results into structured AI answers
 
 ---
 
-### 💼 BeQuick — Job Intelligence Platform
+### 💼 [BeQuick](https://github.com/vineet-dwivedi/bequick) — Job Intelligence Platform
 
-🔗 [github.com/vineet-dwivedi/bequick](https://github.com/vineet-dwivedi/bequick)
-
-**Stack:** React · Node.js · AI Integration
+**Stack:**
+![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB&style=flat)
+![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white&style=flat)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white&style=flat)
 
 - AI-powered job recommendations
 - Admin dashboard + analytics
 - Smart filtering & matching
 
-> 💡 **Problem Solved:** Helps users discover relevant jobs faster using intelligent filtering
+> 💡 Helps users discover relevant jobs faster using intelligent filtering
 
 ---
 
-### 🎬 Streamzz — Cinematic Web Platform
+### 🎬 [Streamzz](https://github.com/vineet-dwivedi/streamzz) — Cinematic Web Platform
 
-🔗 [github.com/vineet-dwivedi/streamzz](https://github.com/vineet-dwivedi/streamzz)
-
-**Stack:** Next.js · Redux Toolkit · WebGL · GSAP
+**Stack:**
+![Next.js](https://img.shields.io/badge/Next.js-000?logo=nextdotjs&logoColor=white&style=flat)
+![Redux](https://img.shields.io/badge/Redux-764ABC?logo=redux&logoColor=white&style=flat)
+![WebGL](https://img.shields.io/badge/WebGL-990000?logo=webgl&logoColor=white&style=flat)
 
 - SSR optimized performance
 - WebGL-powered UI effects
 - Advanced animations
 
-> 💡 **Problem Solved:** Delivers immersive UI experience with high-performance rendering
+> 💡 Delivers immersive UI experience with high-performance rendering
 
 ---
 
 ## 🛠️ Tech Stack
 
-**Core Technologies**
+**Frontend**
 
-| Layer | Tools |
-|-------|-------|
-| Frontend | React, Next.js, Tailwind CSS |
-| Backend | Node.js, Express, MongoDB, Redis |
-| AI | LangChain, OpenAI APIs |
-| Real-time | WebSockets, LiveKit |
+![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB&style=flat)
+![Next.js](https://img.shields.io/badge/Next.js-000?logo=nextdotjs&logoColor=white&style=flat)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=flat)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?logo=tailwindcss&logoColor=white&style=flat)
+![Redux](https://img.shields.io/badge/Redux-764ABC?logo=redux&logoColor=white&style=flat)
 
-**Tools & Ecosystem**
+**Backend**
 
-`Git` `Docker` `Postman` `Figma` `Linux` `GSAP` `Framer Motion` `WebGL`
+![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white&style=flat)
+![Express](https://img.shields.io/badge/Express-000?logo=express&logoColor=white&style=flat)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white&style=flat)
+![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white&style=flat)
 
----
+**AI & Real-time**
 
-## ⚡ Why Me?
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?logo=langchain&logoColor=white&style=flat)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?logo=openai&logoColor=white&style=flat)
+![LiveKit](https://img.shields.io/badge/LiveKit-00D9FF?style=flat)
+![Socket.io](https://img.shields.io/badge/WebSockets-010101?logo=socketdotio&logoColor=white&style=flat)
 
-- 🏗️ I build **production-ready AI systems**, not just demos
-- 🔁 Strong ownership across **frontend + backend**
-- 📈 Focus on **performance, scalability**, and real-world impact
-- ⚡ Fast execution: **idea → build → deploy**
+**Tools**
+
+![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white&style=flat)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=flat)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white&style=flat)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=white&style=flat)
+![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black&style=flat)
 
 ---
 
@@ -133,35 +142,45 @@ const vineet = {
 
 ---
 
-## 🔭 Current Focus
+## 🐍 Contribution Graph
 
-- Building **Clario-AI** (AI Search Engine)
-- Designing scalable AI architectures
-- Learning system design + microservices
+<div align="center">
+  <img src="https://raw.githubusercontent.com/vineet-dwivedi/vineet-dwivedi/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
+</div>
+
+---
+
+## ⚡ Why Me?
+
+- 🏗️ I build **production-ready AI systems**, not just demos
+- 🔁 Strong ownership across **frontend + backend**
+- 📈 Focus on **performance, scalability**, and real-world impact
+- ⚡ Fast execution: **idea → build → deploy**
+
+---
+
+## 🔭 Currently
+
+- 🔨 Building **Clario-AI** — Perplexity-style AI search engine
+- 📐 Designing scalable AI architectures at **Flowaris**
+- 📚 Learning system design + microservices
 
 ---
 
 ## 🚀 Open to Work
 
-**Looking for:**
-- SDE-1 / Full-Stack roles
-- AI-focused product teams
+Looking for **SDE-1 / Full-Stack** roles in AI-focused product teams.
 
-**What I bring:**
-- Real-world AI product experience
-- Strong full-stack execution
-- Ability to ship fast and iterate
+> Fast executor · Real-world AI experience · Ships and iterates
 
 ---
 
-## 🤝 Connect
-
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vineetdwivedi409@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/vineet-dwivedi)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://os-portfolio-sigma-taupe.vercel.app)
+[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vineetdwivedi409@gmail.com)
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=gradient&customColorList=6,12,20&section=footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=110&color=gradient&customColorList=6,12,20&section=footer" />
