@@ -21,7 +21,7 @@
 <br/>
 
 <br/>
-<img src="https://github-readme-stats.vercel.app/api?username=vineet-dwivedi&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=00000000" />
+<img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=vineet-dwivedi&theme=tokyonight&hide_border=true&background=00000000" />
 <br/>
 
 </div>
