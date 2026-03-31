@@ -16,7 +16,7 @@
 
 ### 🛠️ Tech Stack
 
-<img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,nodejs,express,redis,mongodb,redis,js,scss,git&theme=dark" alt="Tech Stack" />
+<img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,nodejs,express,redis,mongodb,postman,js,scss,git&theme=dark" alt="Tech Stack" />
 
 <br/>
 
