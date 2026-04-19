@@ -30,9 +30,9 @@
 
 ### ✦ Featured Work
 
-* [**Clario-AI**](https://github.com/vineet-dwivedi/clario-ai) — A Perplexity-style AI search engine built with LangChain, OpenAI, and Redis for real-time web search synthesis.
+* [**Clario-AI**](https://github.com/vineet-dwivedi/clario-ai) — An AI search engine built with LangChain, OpenAI, and Redis for real-time web search synthesis.
 * [**BeQuick**](https://github.com/vineet-dwivedi/bequick) — An AI-powered job intelligence platform featuring smart matching algorithms and real-time analytics.
-* [**Streamzz**](https://github.com/vineet-dwivedi/streamzz) — A cinematic movie platform optimized with Next.js SSR, WebGL (OGL) effects, and GSAP animations.
+* [**Streamzz**](https://github.com/vineet-dwivedi/streamzz) — A cinematic movie platform optimized with React.js SSR, WebGL (OGL) effects, and GSAP animations.
 * [**SYSC**](https://github.com/vineet-dwivedi/sysc-music) — Full-stack music platform with custom audio controls, playlist management, and secure JWT authentication.
 
 ---
