@@ -6,11 +6,10 @@
 <p align="center">
   <a href="https://linkedin.com/in/vineet-dwivedi"><img src="https://skillicons.dev/icons?i=linkedin" alt="Linkedin" /></a> • 
   <a href="https://os-portfolio-sigma-taupe.vercel.app"><img src="https://skillicons.dev/icons?i=vercel" alt="Portfolio" /></a> • 
-  <a href="mailto:vineetdwivedi409@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" alt="Gmail" /></a>• 
-  <a href="https://www.instagram.com/serenevineet?igsh=aXZlanJtYmlxNzB5"><img src="https://skillicons.dev/icons?i=instagram" alt="Insta" /></a>
+  <a href="mailto:vineetdwivedi409@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" alt="Gmail" /></a>
 </p>
 
-*Building the future with AI & Code. Currently building real-time platforms and AI agents as an SDE Intern at Flowaris Technologies.*
+*Building the future with AI & Code. Currently building real-time platforms and AI agents. Former SDE Intern at Flowaris Technologies.*
 
 <br/>
 
