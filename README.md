@@ -1,57 +1,67 @@
 <div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vineet-dwivedi/vineet-dwivedi/main/dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vineet-dwivedi/vineet-dwivedi/main/light.svg">
+    <img alt="Vineet Dwivedi Hero Banner" src="https://raw.githubusercontent.com/vineet-dwivedi/vineet-dwivedi/main/dark.svg" width="100%">
+  </picture>
 
-# Vineet Dwivedi
-**Full Stack Developer & AI Integration Specialist**
+  <br/>
+  
+  <h2>Full Stack Developer & AI Integration Specialist</h2>
+  <p><em>Building high-performance platforms & intelligent systems • Former SDE Intern at Flowaris Technologies</em></p>
 
-<p align="center">
-  <a href="https://linkedin.com/in/vineet-dwivedi"><img src="https://skillicons.dev/icons?i=linkedin" alt="Linkedin" /></a> • 
-  <a href="https://os-portfolio-sigma-taupe.vercel.app"><img src="https://skillicons.dev/icons?i=vercel" alt="Portfolio" /></a> • 
-  <a href="mailto:vineetdwivedi409@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" alt="Gmail" /></a>
-</p>
-
-*Building the future with AI & Code. Currently building real-time platforms and AI agents. Former SDE Intern at Flowaris Technologies.*
-
-<br/>
-
-### 🛠️ Tech Stack
-
-<img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,nodejs,express,redis,mongodb,postman,js,scss,threejs,docker,aws,kubernetes,github,git&theme=dark" alt="Tech Stack" />
-
-<br/>
-
-<br/>
-<img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=vineet-dwivedi&theme=tokyonight&hide_border=true&background=00000000" />
-<br/>
-
+  <p>
+    <a href="https://linkedin.com/in/vineet-dwivedi" target="_blank"><img src="https://skillicons.dev/icons?i=linkedin" alt="Linkedin" /></a> &nbsp;◤&nbsp; 
+    <a href="https://os-portfolio-sigma-taupe.vercel.app" target="_blank"><img src="https://skillicons.dev/icons?i=vercel" alt="Portfolio" /></a> &nbsp;◤&nbsp; 
+    <a href="mailto:vineetdwivedi409@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" alt="Gmail" /></a>
+  </p>
 </div>
 
 ---
 
-### ✦ Featured Work
+### ✦ Tech Stack Engine
 
-* [**Clario-AI**](https://github.com/vineet-dwivedi/clario-ai) — An AI search engine built with LangChain, OpenAI, and Redis for real-time web search synthesis.
-* [**BeQuick**](https://github.com/vineet-dwivedi/bequick) — An AI-powered job intelligence platform featuring smart matching algorithms and real-time analytics.
-* [**Streamzz**](https://github.com/vineet-dwivedi/streamzz) — A cinematic movie platform optimized with React.js SSR, WebGL (OGL) effects, and GSAP animations.
-* [**SYSC**](https://github.com/vineet-dwivedi/sysc-music) — Full-stack music platform with custom audio controls, playlist management, and secure JWT authentication.
+| Layer | Technologies |
+| :--- | :--- |
+| **Frontend** | TypeScript · React · Next.js · Tailwind · SCSS · Three.js |
+| **Backend** | Node.js · Express · Redis · MongoDB · JWT Auth · LiveKit |
+| **DevOps** | Docker · AWS · Kubernetes · Git · GitHub · Postman |
+
+<br/>
+
+<div align="left">
+  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,nodejs,express,redis,mongodb,postman,threejs,docker,aws,kubernetes,git&theme=dark" alt="Tech Stack Icons" />
+</div>
+
+---
+
+### ✦ Featured Systems
+
+* 🚀 [**Clario-AI**](https://github.com/vineet-dwivedi/clario-ai) — An advanced AI search engine engineered with LangChain, OpenAI, and Redis for real-time web search synthesis and autonomous context retrieval.
+* 🧠 [**BeQuick**](https://github.com/vineet-dwivedi/bequick) — An AI-powered job intelligence platform featuring smart vector matching algorithms, automated parsing, and real-time analytical dashboards.
+* 🎬 [**Streamzz**](https://github.com/vineet-dwivedi/streamzz) — A highly cinematic streaming platform optimized via React Server-Side Rendering (SSR), custom WebGL (OGL) shaders, and fluid GSAP multi-stage animations.
+* 🎵 [**SYSC**](https://github.com/vineet-dwivedi/sysc-music) — An open-source, full-stack music platform housing over 100+ tracks featuring atomic custom audio controls, playlist state persistence, and secure stateless JWT authentication.
 
 ---
 
 ### ✦ Current Focus
 
-* **Building:** Production-grade AI applications and scalable real-time systems (using LiveKit).
-* **Learning:** Advanced System Design, Microservices architecture, and cloud infrastructure.
-* **Seeking:** SDE-1 / Full-Stack Developer roles in AI-focused product companies.
+* ⚡ **Engineering:** Scaling production-ready AI agents and high-throughput real-time streaming architectures using LiveKit.
+* 🏗️ **Deep Diving:** Microservices design patterns, advanced cloud infrastructure deployment, and systemic database optimization.
+* 💼 **Open to:** SDE-1 / Full-Stack Developer opportunities within high-velocity, engineering-first product teams.
 
 ---
 
+### 📊 Activity Metrics
+
 <div align="center">
-
-### 🐍 Contribution Activity
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vineet-dwivedi/vineet-dwivedi/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vineet-dwivedi/vineet-dwivedi/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/vineet-dwivedi/vineet-dwivedi/output/github-contribution-grid-snake.svg">
-</picture>
-
+  <br/>
+  <img width="70%" src="https://github-readme-streak-stats.herokuapp.com/?user=vineet-dwivedi&theme=tokyonight&hide_border=true&background=00000000" alt="GitHub Streak Stats" />
+  <br/><br/>
+  
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vineet-dwivedi/vineet-dwivedi/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vineet-dwivedi/vineet-dwivedi/output/github-contribution-grid-snake.svg">
+    <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/vineet-dwivedi/vineet-dwivedi/output/github-contribution-grid-snake.svg" width="85%">
+  </picture>
 </div>
