@@ -56,7 +56,7 @@
 
 <div align="center">
   <br/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=vineet-dwivedi&theme=transparent&hide_border=true&background=00000000&currStreakNum=ffffff&currStreakLabel=ffffff&sideNums=ffffff&sideLabels=ffffff&ring=ffffff&fire=ffffff" alt="Streak Stats" />
+<img width="40%" src="https://github-readme-streak-stats.herokuapp.com/?user=vineet-dwivedi&theme=raw&background=00000000&hide_border=true&ring=FFFFFF&fire=FFFFFF&currStreakNum=FFFFFF&sideNums=A1A1AA&sideLabels=71717A&currStreakLabel=A1A1AA" alt="GitHub Streak Stats" />
   <br/><br/>
   
   <picture>
