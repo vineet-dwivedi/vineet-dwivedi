@@ -1,149 +1,99 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 610" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 480" width="100%" height="100%">
   <defs>
     <style>
       .text-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
       .text-mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Monaco, Consolas, monospace; }
+      
+      /* --- SUBTLE ALIGNMENT-SAFE ANIMATION --- */
+      @keyframes pureFade {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+      }
+
+      .layer-bg { animation: pureFade 1s cubic-bezier(0.22, 1, 0.36, 1) forwards; }
+      .layer-1 { opacity: 0; animation: pureFade 0.8s cubic-bezier(0.22, 1, 0.36, 1) 0.2s forwards; }
+      .layer-2 { opacity: 0; animation: pureFade 0.8s cubic-bezier(0.22, 1, 0.36, 1) 0.4s forwards; }
+      .layer-3 { opacity: 0; animation: pureFade 0.8s cubic-bezier(0.22, 1, 0.36, 1) 0.6s forwards; }
+      .layer-4 { opacity: 0; animation: pureFade 0.8s cubic-bezier(0.22, 1, 0.36, 1) 0.8s forwards; }
+      .layer-foot { opacity: 0; animation: pureFade 0.8s cubic-bezier(0.22, 1, 0.36, 1) 1.0s forwards; }
+
+      .tech-pill-light { fill: #F4F4F5; stroke: #E4E4E7; stroke-width: 1; }
     </style>
-
-    <!-- Background Gradients -->
-    <linearGradient id="light-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#FFFFFF" />
-      <stop offset="100%" stop-color="#F1F5F9" />
-    </linearGradient>
-
-    <!-- Light Theme Gradient Text -->
-    <linearGradient id="accent-grad-light" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#2563EB" />
-      <stop offset="50%" stop-color="#06B6D4" />
-      <stop offset="100%" stop-color="#10B981" />
-    </linearGradient>
-
-    <!-- Bottom Overlay for Light Mode -->
-    <linearGradient id="vignette-light" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="transparent" />
-      <stop offset="60%" stop-color="#F8FAFC" stop-opacity="0.8" />
-      <stop offset="100%" stop-color="#F8FAFC" stop-opacity="0.98" />
-    </linearGradient>
-
-    <linearGradient id="border-shimmer-light" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="rgba(15,23,42,0.06)" />
-      <stop offset="50%" stop-color="rgba(37, 99, 235, 0.2)" />
-      <stop offset="100%" stop-color="rgba(15,23,42,0.06)" />
-    </linearGradient>
-
-    <filter id="blur-bg" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="50" />
-    </filter>
-
-    <clipPath id="avatar-clip">
-      <rect x="42" y="42" width="396" height="526" rx="22" />
-    </clipPath>
   </defs>
 
-  <!-- Base Canvas Background -->
-  <rect width="1180" height="610" fill="url(#light-bg)" rx="16" />
+  <rect width="1180" height="480" fill="#FAFAFA" rx="12" class="layer-bg" />
 
-  <!-- Ambient Light Glows -->
-  <g filter="url(#blur-bg)" opacity="0.08">
-    <circle cx="200" cy="150" r="200" fill="#2563EB" />
-    <circle cx="950" cy="450" r="250" fill="#10B981" />
+  <g fill="#FFFFFF" stroke="#E4E4E7" stroke-width="1">
+    <rect x="50" y="40" width="1080" height="400" rx="16" />
   </g>
 
-  <!-- ==================== LEFT SIDE: PROFILE IMAGE FRAME ==================== -->
-  <g>
-    <rect x="40" y="40" width="400" height="530" rx="24" fill="#F8FAFC" />
+  <g class="layer-1">
+    <circle cx="80" cy="65" r="5" fill="#E4E4E7" />
+    <circle cx="96" cy="65" r="5" fill="#E4E4E7" />
+    <circle cx="112" cy="65" r="5" fill="#E4E4E7" />
+    <text x="135" y="70" class="text-mono" font-size="12" fill="#A1A1AA">vineet@architecture:~</text>
     
-    <!-- Dynamically pulling your GitHub Image -->
-    <image href="https://github.com/vineet-dwivedi.png" x="42" y="42" width="396" height="526" preserveAspectRatio="xMidYMid slice" clip-path="url(#avatar-clip)" />
-    
-    <rect x="42" y="300" width="396" height="268" fill="url(#vignette-light)" clip-path="url(#avatar-clip)" />
-
-    <!-- Terminal Status Info Over Picture -->
-    <g class="text-mono" font-size="13" fill="#475569" transform="translate(70, 440)">
-      <circle cx="-10" cy="-4" r="4" fill="#10B981" />
-      <text x="5" y="0" fill="#10B981" font-weight="700" letter-spacing="1">SYS.ACTIVE</text>
-      
-      <text x="-10" y="28">OS: <tspan fill="#0F172A">Ubuntu LTS</tspan></text>
-      <text x="-10" y="50">SHELL: <tspan fill="#0F172A">Zsh</tspan></text>
-      <text x="-10" y="72">SDE_INTERN: <tspan fill="#2563EB">Flowaris</tspan></text>
-    </g>
-
-    <rect x="40" y="40" width="400" height="530" rx="24" fill="none" stroke="url(#border-shimmer-light)" stroke-width="2" />
+    <text x="90" y="135" class="text-sans" font-size="28" font-weight="400" fill="#71717A">
+      Hi, I'm <tspan font-weight="600" fill="#09090B">Vineet Dwivedi</tspan>
+    </text>
   </g>
 
-  <!-- ==================== RIGHT SIDE: TERMINAL ENGINE ==================== -->
-  <g>
-    <rect x="475" y="40" width="665" height="530" rx="24" fill="#F8FAFC" fill-opacity="0.9" stroke="url(#border-shimmer-light)" stroke-width="2" />
-
-    <!-- Window Chrome Mac Bar -->
-    <rect x="475" y="40" width="665" height="42" rx="24" fill="#E2E8F0" fill-opacity="0.7" />
-    <circle cx="500" cy="61" r="6" fill="#EF4444" />
-    <circle cx="520" cy="61" r="6" fill="#F59E0B" />
-    <circle cx="540" cy="61" r="6" fill="#10B981" />
-    <text x="807" y="66" class="text-mono" font-size="13" fill="#475569" text-anchor="middle">vineet@developer:~</text>
-
-    <!-- Safe Combined Typography Headers -->
-    <text x="515" y="125" class="text-sans" font-size="24" font-weight="600" fill="#475569">
-      Hi 👋 I'm <tspan font-weight="800" fill="#0F172A">Vineet Dwivedi</tspan>
+  <g class="layer-2">
+    <text x="90" y="175" class="text-mono" font-size="16" font-weight="500" fill="#27272A" letter-spacing="0.5">
+      Full Stack Developer &amp; AI Integration Specialist
     </text>
+    <line x1="90" y1="205" x2="1090" y2="205" stroke="#E4E4E7" stroke-width="1" />
+  </g>
 
-    <text x="515" y="165" class="text-mono" font-size="18" font-weight="700" fill="url(#accent-grad-light)">
-      Full-Stack Developer &amp; AI Specialist
-    </text>
+  <g class="layer-3" class="text-mono" font-size="14" fill="#71717A" transform="translate(90, 245)">
+    <text x="0" y="0" font-weight="600" fill="#A1A1AA">📍 Focus</text>
+    <text x="140" y="0" fill="#09090B">Scalable Web Engines &amp; Intelligent Agents</text>
+    
+    <text x="0" y="36" font-weight="600" fill="#A1A1AA">🎓 Education</text>
+    <text x="140" y="36" fill="#09090B">Computer Science Engineering</text>
+    
+    <text x="0" y="72" font-weight="600" fill="#A1A1AA">💻 Env</text>
+    <text x="140" y="72" fill="#27272A">Ubuntu LTS // Zsh</text>
+    
+    <text x="0" y="108" font-weight="600" fill="#A1A1AA">💼 Experience</text>
+    <text x="140" y="108" fill="#27272A">Former SDE Intern @ Flowaris Technologies</text>
+  </g>
 
-    <!-- Meta Fields Grid -->
-    <g class="text-mono" font-size="14" fill="#475569" transform="translate(515, 220)">
-      <text x="0" y="0" fill="#2563EB" font-weight="700">📍 Location:</text>
-      <text x="130" y="0" fill="#0F172A">India</text>
+  <g class="layer-4" transform="translate(680, 245)">
+    <text x="0" y="0" class="text-sans" font-size="11" font-weight="700" fill="#A1A1AA" letter-spacing="1.5">STACK COMPILER</text>
+    
+    <g transform="translate(0, 15)" class="text-mono" font-size="12" fill="#27272A">
+      <rect x="0" y="0" width="70" height="28" rx="4" class="tech-pill-light" />
+      <text x="35" y="18" text-anchor="middle">React</text>
       
-      <text x="0" y="32" fill="#06B6D4" font-weight="700">🎓 Education:</text>
-      <text x="130" y="32" fill="#0F172A">Computer Science Engineering</text>
+      <rect x="80" y="0" width="75" height="28" rx="4" class="tech-pill-light" />
+      <text x="117.5" y="18" text-anchor="middle">Next.js</text>
       
-      <text x="0" y="64" fill="#10B981" font-weight="700">🚀 Focus:</text>
-      <text x="130" y="64" fill="#0F172A">Scalable Systems &amp; AI Agents</text>
+      <rect x="165" y="0" width="75" height="28" rx="4" class="tech-pill-light" />
+      <text x="202.5" y="18" text-anchor="middle">Node.js</text>
       
-      <text x="0" y="96" fill="#F59E0B" font-weight="700">💼 Portfolio:</text>
-      <text x="130" y="96" fill="#2563EB" font-weight="700">sysc.vercel.app</text>
+      <rect x="250" y="0" width="95" height="28" rx="4" class="tech-pill-light" />
+      <text x="297.5" y="18" text-anchor="middle">TypeScript</text>
     </g>
 
-    <!-- Tech Stack Pill Engines -->
-    <g transform="translate(515, 375)">
-      <text x="0" y="0" class="text-sans" font-size="13" font-weight="700" fill="#94A3B8" letter-spacing="1.5">TECH STACK ENGINE</text>
+    <g transform="translate(0, 52)" class="text-mono" font-size="12" fill="#27272A">
+      <rect x="0" y="0" width="75" height="28" rx="4" class="tech-pill-light" />
+      <text x="37.5" y="18" text-anchor="middle">Docker</text>
       
-      <g transform="translate(0, 15)" class="text-mono" font-size="12" fill="#0F172A">
-        <rect x="0" y="0" width="65" height="26" rx="6" fill="#EDF2F7" />
-        <text x="32.5" y="17" text-anchor="middle">React</text>
-        
-        <rect x="75" y="0" width="75" height="26" rx="6" fill="#EDF2F7" />
-        <text x="112.5" y="17" text-anchor="middle">Next.js</text>
-        
-        <rect x="160" y="0" width="75" height="26" rx="6" fill="#EDF2F7" />
-        <text x="197.5" y="17" text-anchor="middle">Node.js</text>
-        
-        <rect x="245" y="0" width="95" height="26" rx="6" fill="#EDF2F7" />
-        <text x="292.5" y="17" text-anchor="middle">TypeScript</text>
-      </g>
-
-      <g transform="translate(0, 50)" class="text-mono" font-size="12" fill="#0F172A">
-        <rect x="0" y="0" width="75" height="26" rx="6" fill="#EDF2F7" />
-        <text x="37.5" y="17" text-anchor="middle">Docker</text>
-        
-        <rect x="85" y="0" width="65" height="26" rx="6" fill="#EDF2F7" />
-        <text x="117.5" y="17" text-anchor="middle">AWS</text>
-        
-        <rect x="160" y="0" width="85" height="26" rx="6" fill="#EDF2F7" />
-        <text x="202.5" y="17" text-anchor="middle">Redis DB</text>
-        
-        <rect x="255" y="0" width="85" height="26" rx="6" fill="#EDF2F7" />
-        <text x="297.5" y="17" text-anchor="middle">LiveKit</text>
-      </g>
+      <rect x="85" y="0" width="65" height="28" rx="4" class="tech-pill-light" />
+      <text x="117.5" y="18" text-anchor="middle">AWS</text>
+      
+      <rect x="160" y="0" width="85" height="28" rx="4" class="tech-pill-light" />
+      <text x="202.5" y="18" text-anchor="middle">Redis DB</text>
+      
+      <rect x="255" y="0" width="85" height="28" rx="4" class="tech-pill-light" />
+      <text x="297.5" y="18" text-anchor="middle">LiveKit</text>
     </g>
+  </g>
 
-    <!-- Bottom Execution Terminal Bar -->
-    <g transform="translate(515, 485)">
-      <line x1="0" y1="0" x2="585" y2="0" stroke="rgba(15,23,42,0.06)" stroke-width="1" />
-      <circle cx="5" cy="22" r="4" fill="#10B981" />
-      <text x="18" y="26" class="text-mono" font-size="11" fill="#94A3B8">PRODUCTION READY SYSTEM</text>
-    </g>
+  <g class="layer-foot" transform="translate(90, 390)">
+    <line x1="0" y1="0" x2="1000" y2="0" stroke="#E4E4E7" stroke-width="1" />
+    <circle cx="5" cy="22" r="3.5" fill="#A1A1AA" />
+    <text x="18" y="26" class="text-mono" font-size="11" fill="#A1A1AA">STATUS: STABLE SYSTEM // DEPLOYED AT sysc.vercel.app</text>
   </g>
 </svg>
