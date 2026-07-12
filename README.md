@@ -56,7 +56,7 @@
 
 <div align="center">
   <br/>
-  <img width="70%" src="https://github-readme-streak-stats.herokuapp.com/?user=vineet-dwivedi&theme=tokyonight&hide_border=true&background=00000000" alt="GitHub Streak Stats" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=vineet-dwivedi&theme=transparent&hide_border=true&background=00000000&currStreakNum=ffffff&currStreakLabel=ffffff&sideNums=ffffff&sideLabels=ffffff&ring=ffffff&fire=ffffff" alt="Streak Stats" />
   <br/><br/>
   
   <picture>
