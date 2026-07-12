@@ -1,127 +1,104 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 610" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 480" width="100%" height="100%">
   <defs>
     <style>
       .text-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
       .text-mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Monaco, Consolas, monospace; }
       
-      /* --- PREMIUM ENTRANCE ANIMATIONS --- */
-      @keyframes UI-Entrance {
-        from { opacity: 0; }
-        to { opacity: 1; }
+      /* --- SUBTLE ALIGNMENT-SAFE ANIMATION --- */
+      @keyframes pureFade {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
       }
 
-      .layer-bg { animation: UI-Entrance 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
-      .layer-photo { opacity: 0; animation: UI-Entrance 1s cubic-bezier(0.16, 1, 0.3, 1) 0.3s forwards; }
-      .layer-text-1 { opacity: 0; animation: UI-Entrance 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.5s forwards; }
-      .layer-text-2 { opacity: 0; animation: UI-Entrance 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.7s forwards; }
-      .layer-text-3 { opacity: 0; animation: UI-Entrance 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.9s forwards; }
-      .layer-text-4 { opacity: 0; animation: UI-Entrance 0.8s cubic-bezier(0.16, 1, 0.3, 1) 1.1s forwards; }
+      .layer-bg { animation: pureFade 1s cubic-bezier(0.22, 1, 0.36, 1) forwards; }
+      .layer-1 { opacity: 0; animation: pureFade 0.8s cubic-bezier(0.22, 1, 0.36, 1) 0.2s forwards; }
+      .layer-2 { opacity: 0; animation: pureFade 0.8s cubic-bezier(0.22, 1, 0.36, 1) 0.4s forwards; }
+      .layer-3 { opacity: 0; animation: pureFade 0.8s cubic-bezier(0.22, 1, 0.36, 1) 0.6s forwards; }
+      .layer-4 { opacity: 0; animation: pureFade 0.8s cubic-bezier(0.22, 1, 0.36, 1) 0.8s forwards; }
+      .layer-foot { opacity: 0; animation: pureFade 0.8s cubic-bezier(0.22, 1, 0.36, 1) 1.0s forwards; }
 
-      .tech-pill { fill: #18181B; stroke: #27272A; stroke-width: 1; }
+      .tech-pill-dark { fill: #18181B; stroke: #27272A; stroke-width: 1; }
     </style>
 
     <linearGradient id="void-bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#09090B" />
       <stop offset="100%" stop-color="#020203" />
     </linearGradient>
-
-    <linearGradient id="photo-vignette" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="transparent" />
-      <stop offset="50%" stop-color="#141416" stop-opacity="0.4" />
-      <stop offset="100%" stop-color="#141416" stop-opacity="0.95" />
-    </linearGradient>
-
-    <clipPath id="avatar-clip">
-      <rect x="41" y="41" width="398" height="528" rx="16" />
-    </clipPath>
   </defs>
 
-  <rect width="1180" height="610" fill="url(#void-bg)" rx="12" class="layer-bg" />
-
-  <g class="layer-photo">
-    <rect x="40" y="40" width="400" height="530" rx="16" fill="#141416" stroke="#27272A" stroke-width="1" />
-    
-    <image href="PASTE_YOUR_BASE64_STRING_HERE" x="41" y="41" width="398" height="528" preserveAspectRatio="xMidYMid slice" clip-path="url(#avatar-clip)" />
-    
-    <rect x="41" y="320" width="398" height="249" fill="url(#photo-vignette)" clip-path="url(#avatar-clip)" />
-
-    <g class="text-mono" font-size="12" fill="#71717A" transform="translate(70, 455)">
-      <circle cx="-10" cy="-4" r="3.5" fill="#E4E4E7" />
-      <text x="8" y="0" fill="#E4E4E7" font-weight="600" letter-spacing="1">SYSTEM.ONLINE</text>
-      
-      <text x="-10" y="26">ENVIRONMENT: <tspan fill="#F4F4F5">Ubuntu LTS // Zsh</tspan></text>
-      <text x="-10" y="46">ROLE: <tspan fill="#F4F4F5">SDE Intern</tspan></text>
-      <text x="-10" y="66">CORE ENGINE: <tspan fill="#F4F4F5">Full-Stack Architecture</tspan></text>
-    </g>
-  </g>
+  <rect width="1180" height="480" fill="url(#void-bg)" rx="12" class="layer-bg" />
 
   <g fill="#141416" stroke="#27272A" stroke-width="1">
-    <rect x="470" y="40" width="670" height="530" rx="16" />
+    <rect x="50" y="40" width="1080" height="400" rx="16" />
   </g>
 
-  <g class="layer-text-1">
-    <circle cx="500" cy="65" r="5" fill="#27272A" />
-    <circle cx="516" cy="65" r="5" fill="#27272A" />
-    <circle cx="532" cy="65" r="5" fill="#27272A" />
-    <text x="555" y="70" class="text-mono" font-size="12" fill="#52525B">core_architecture.sys</text>
+  <g class="layer-1">
+    <circle cx="80" cy="65" r="5" fill="#27272A" />
+    <circle cx="96" cy="65" r="5" fill="#27272A" />
+    <circle cx="112" cy="65" r="5" fill="#27272A" />
+    <text x="135" y="70" class="text-mono" font-size="12" fill="#52525B">vineet@architecture:~</text>
     
-    <text x="510" y="135" class="text-sans" font-size="26" font-weight="500" fill="#A1A1AA">
+    <text x="90" y="135" class="text-sans" font-size="28" font-weight="500" fill="#A1A1AA">
       Hi, I'm <tspan font-weight="700" fill="#FFFFFF">Vineet Dwivedi</tspan>
     </text>
   </g>
 
-  <g class="layer-text-2">
-    <text x="510" y="175" class="text-mono" font-size="16" font-weight="500" fill="#E4E4E7" letter-spacing="0.5">
+  <g class="layer-2">
+    <text x="90" y="175" class="text-mono" font-size="16" font-weight="500" fill="#E4E4E7" letter-spacing="0.5">
       Full Stack Developer &amp; AI Integration Specialist
     </text>
-    <line x1="510" y1="205" x2="1100" y2="205" stroke="#27272A" stroke-width="1" />
+    <line x1="90" y1="205" x2="1090" y2="205" stroke="#27272A" stroke-width="1" />
   </g>
 
-  <g class="layer-text-3" class="text-mono" font-size="14" fill="#71717A" transform="translate(510, 245)">
-    <text x="0" y="0" font-weight="600" fill="#A1A1AA">📍 Focus Fields</text>
-    <text x="140" y="0" fill="#FFFFFF">Scalable Web Engines &amp; Intelligent Core Agents</text>
+  <g class="layer-3" class="text-mono" font-size="14" fill="#71717A" transform="translate(90, 245)">
+    <text x="0" y="0" font-weight="600" fill="#A1A1AA">📍 Focus</text>
+    <text x="140" y="0" fill="#FFFFFF">Scalable Web Engines &amp; Intelligent Agents</text>
     
     <text x="0" y="36" font-weight="600" fill="#A1A1AA">🎓 Education</text>
     <text x="140" y="36" fill="#FFFFFF">Computer Science Engineering</text>
     
-    <text x="0" y="72" font-weight="600" fill="#A1A1AA">🌐 Deployment</text>
-    <text x="140" y="72" fill="#E4E4E7" font-weight="600">sysc.vercel.app</text>
+    <text x="0" y="72" font-weight="600" fill="#A1A1AA">💻 Env</text>
+    <text x="140" y="72" fill="#E4E4E7">Ubuntu LTS // Zsh</text>
+    
+    <text x="0" y="108" font-weight="600" fill="#A1A1AA">💼 Experience</text>
+    <text x="140" y="108" fill="#E4E4E7">Former SDE Intern @ Flowaris Technologies</text>
   </g>
 
-  <g class="layer-text-4" transform="translate(510, 395)">
+  <g class="layer-4" transform="translate(680, 245)">
     <text x="0" y="0" class="text-sans" font-size="11" font-weight="700" fill="#52525B" letter-spacing="1.5">STACK COMPILER</text>
     
     <g transform="translate(0, 15)" class="text-mono" font-size="12" fill="#E4E4E7">
-      <rect x="0" y="0" width="70" height="28" rx="4" class="tech-pill" />
+      <rect x="0" y="0" width="70" height="28" rx="4" class="tech-pill-dark" />
       <text x="35" y="18" text-anchor="middle">React</text>
       
-      <rect x="80" y="0" width="75" height="28" rx="4" class="tech-pill" />
+      <rect x="80" y="0" width="75" height="28" rx="4" class="tech-pill-dark" />
       <text x="117.5" y="18" text-anchor="middle">Next.js</text>
       
-      <rect x="165" y="0" width="75" height="28" rx="4" class="tech-pill" />
+      <rect x="165" y="0" width="75" height="28" rx="4" class="tech-pill-dark" />
       <text x="202.5" y="18" text-anchor="middle">Node.js</text>
       
-      <rect x="250" y="0" width="95" height="28" rx="4" class="tech-pill" />
+      <rect x="250" y="0" width="95" height="28" rx="4" class="tech-pill-dark" />
       <text x="297.5" y="18" text-anchor="middle">TypeScript</text>
     </g>
 
     <g transform="translate(0, 52)" class="text-mono" font-size="12" fill="#E4E4E7">
-      <rect x="0" y="0" width="75" height="28" rx="4" class="tech-pill" />
+      <rect x="0" y="0" width="75" height="28" rx="4" class="tech-pill-dark" />
       <text x="37.5" y="18" text-anchor="middle">Docker</text>
       
-      <rect x="85" y="0" width="65" height="28" rx="4" class="tech-pill" />
+      <rect x="85" y="0" width="65" height="28" rx="4" class="tech-pill-dark" />
       <text x="117.5" y="18" text-anchor="middle">AWS</text>
       
-      <rect x="160" y="0" width="85" height="28" rx="4" class="tech-pill" />
+      <rect x="160" y="0" width="85" height="28" rx="4" class="tech-pill-dark" />
       <text x="202.5" y="18" text-anchor="middle">Redis DB</text>
       
-      <rect x="255" y="0" width="85" height="28" rx="4" class="tech-pill" />
+      <rect x="255" y="0" width="85" height="28" rx="4" class="tech-pill-dark" />
       <text x="297.5" y="18" text-anchor="middle">LiveKit</text>
     </g>
+  </g>
 
-    <g transform="translate(0, 120)">
-      <line x1="0" y1="0" x2="590" y2="0" stroke="#27272A" stroke-width="1" />
-      <text x="0" y="22" class="text-mono" font-size="11" fill="#424248">// STABLE BUILD EXECUTED SUCCESSFULLY</text>
-    </g>
+  <g class="layer-foot" transform="translate(90, 390)">
+    <line x1="0" y1="0" x2="1000" y2="0" stroke="#27272A" stroke-width="1" />
+    <circle cx="5" cy="22" r="3.5" fill="#E4E4E7" />
+    <text x="18" y="26" class="text-mono" font-size="11" fill="#424248">STATUS: STABLE SYSTEM // DEPLOYED AT sysc.vercel.app</text>
   </g>
 </svg>
