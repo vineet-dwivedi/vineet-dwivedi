@@ -4,7 +4,7 @@
       .text-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
       .text-mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Monaco, Consolas, monospace; }
       
-      /* --- SAFE OPACITY REVEAL ANIMATION --- */
+      /* --- SYSTEM SAFE OPACITY REVEAL --- */
       @keyframes FadeReveal {
         from { opacity: 0; }
         to { opacity: 1; }
@@ -26,15 +26,12 @@
     </linearGradient>
   </defs>
 
-  <!-- Canvas Background -->
   <rect width="1180" height="480" fill="url(#studio-bg)" rx="12" class="layer-bg" />
 
-  <!-- Console Terminal Body -->
   <g fill="#FFFFFF" stroke="#E4E4E7" stroke-width="1">
     <rect x="50" y="40" width="1080" height="400" rx="16" />
   </g>
 
-  <!-- LAYER 1: WINDOW CHROME & IDENTITY -->
   <g class="layer-1">
     <circle cx="80" cy="65" r="5" fill="#E4E4E7" />
     <circle cx="96" cy="65" r="5" fill="#E4E4E7" />
@@ -46,7 +43,6 @@
     </text>
   </g>
 
-  <!-- LAYER 2: SUBHEADER DIRECTORY -->
   <g class="layer-2">
     <text x="90" y="175" class="text-mono" font-size="16" font-weight="500" fill="#27272A" letter-spacing="0.5">
       Full Stack Developer &amp; AI Integration Specialist
@@ -54,8 +50,7 @@
     <line x1="90" y1="205" x2="1090" y2="205" stroke="#E4E4E7" stroke-width="1" />
   </g>
 
-  <!-- LAYER 3: CORE MATRIX PARAMETERS -->
-  <g class="layer-3" class="text-mono" font-size="14" fill="#A1A1AA" transform="translate(90, 245)">
+  <g class="layer-3 text-mono" font-size="14" fill="#A1A1AA" transform="translate(90, 245)">
     <text x="0" y="0" font-weight="600" fill="#71717A">📍 Focus</text>
     <text x="140" y="0" fill="#09090B">Scalable Web Engines &amp; Intelligent Agents</text>
     
@@ -69,7 +64,6 @@
     <text x="140" y="108" fill="#27272A">Former SDE Intern @ Flowaris Technologies</text>
   </g>
 
-  <!-- LAYER 4: TECH STACK MATRIX -->
   <g class="layer-4" transform="translate(680, 245)">
     <text x="0" y="0" class="text-sans" font-size="11" font-weight="700" fill="#A1A1AA" letter-spacing="1.5">STACK COMPILER</text>
     
@@ -102,7 +96,6 @@
     </g>
   </g>
 
-  <!-- LAYER 5: FOOTER VERIFICATION -->
   <g class="layer-footer" transform="translate(90, 390)">
     <line x1="0" y1="0" x2="1000" y2="0" stroke="#E4E4E7" stroke-width="1" />
     <circle cx="5" cy="22" r="3.5" fill="#71717A" />
