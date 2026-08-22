@@ -32,7 +32,7 @@ I'm a **Full-Stack & AI Engineer** focused on building systems where backend arc
 
 I enjoy working on problems involving **multi-agent orchestration, real-time streaming, asynchronous processing, search, and scalable backend systems**.
 
-My projects typically combine Python/FastAPI or Node.js with LangGraph/LangChain, Redis, MongoDB, PostgreSQL, message queues, Docker, and Kubernetes.
+My projects typically combine Python/FastAPI or Node.js with LangGraph/LangChain, Redis, MongoDB, message queues, Docker, and Kubernetes.
 
 Currently looking for **SDE-1 / Full-Stack / AI Engineer** opportunities.
 
