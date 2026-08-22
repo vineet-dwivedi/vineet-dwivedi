@@ -7,20 +7,20 @@
 <a href="https://linkedin.com/in/vineet-dwivedi">
 <img src="https://img.shields.io/badge/LinkedIn-18181B?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
+
 <a href="https://vineet-portfolio-omega.vercel.app/">
 <img src="https://img.shields.io/badge/Portfolio-18181B?style=for-the-badge&logo=vercel&logoColor=white" />
 </a>
+
 <a href="mailto:vineetdwivedi409@gmail.com">
 <img src="https://img.shields.io/badge/Email-18181B?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
 
-<br/><br/>
+<br/>
 
 <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=15&pause=1800&color=A1A1AA&center=true&vCenter=true&width=650&lines=Building+AI+orchestration+systems;Designing+real-time+distributed+architectures;Full-Stack+%26+AI+Engineer;Former+SDE+Intern+%40+Flowaris+Technologies" alt="Typing SVG"/>
 
-<br/><br/>
-
-<img src="https://komarev.com/ghpvc/?username=vineet-dwivedi&style=flat-square&color=71717a&label=PROFILE+VIEWS" />
+<br/>
 
 </div>
 
@@ -120,7 +120,7 @@ Transforms YouTube videos into structured insights and provides context-aware co
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=js,py,ts,react,nextjs,nodejs,express,fastapi,mongodb,postgres,redis,docker,kubernetes,aws,git,postman&theme=dark" alt="Engineering Stack"/>
+<img src="https://skillicons.dev/icons?i=js,py,ts,react,nextjs,nodejs,express,fastapi,mongodb,redis,docker,kubernetes,aws,git,postman&theme=dark" alt="Engineering Stack"/>
 
 </div>
 
@@ -132,7 +132,7 @@ Transforms YouTube videos into structured insights and provides context-aware co
 | **Frontend**       | React · Next.js · Redux Toolkit · GSAP                         |
 | **Backend**        | Node.js · Express · FastAPI                                    |
 | **AI / Agents**    | LangGraph · LangChain · Gemini · OpenAI                        |
-| **Data**           | MongoDB · PostgreSQL · Redis                                   |
+| **Data**           | MongoDB · Redis                                                |
 | **Infrastructure** | Docker · Kubernetes · AWS · Git                                |
 | **Architecture**   | REST · SSE · Microservices · Message Queues · Async Processing |
 
@@ -216,7 +216,7 @@ If you're working on interesting engineering problems, let's connect.
 <img src="https://img.shields.io/badge/Email-18181B?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
 
-<br/><br/>
+<br/>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:27272a,50:18181b,100:09090b&height=100&section=footer" width="100%" alt="Footer"/>
 
