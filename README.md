@@ -164,24 +164,9 @@ Distributed Systems
 ## `06` — GitHub Activity
 
 <div align="center">
-
-<a href="https://github.com/vineet-dwivedi">
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=vineet-dwivedi&show_icons=true&hide_border=true&bg_color=00000000&title_color=fafafa&icon_color=a1a1aa&text_color=a1a1aa&ring_color=71717a&cache_seconds=86400" alt="Vineet's GitHub Stats"/>
-</a>
-
-<a href="https://github.com/vineet-dwivedi">
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vineet-dwivedi&layout=compact&hide_border=true&bg_color=00000000&title_color=fafafa&text_color=a1a1aa&langs_count=8&cache_seconds=86400" alt="Vineet's Top Languages"/>
-</a>
-
-<br/><br/>
-
 <img src="https://streak-stats.demolab.com/?user=vineet-dwivedi&theme=transparent&hide_border=true&background=00000000&ring=ffffff&fire=ffffff&currStreakNum=ffffff&sideNums=a1a1aa&sideLabels=71717a&currStreakLabel=a1a1aa&dates=71717a" width="55%" alt="GitHub Streak"/>
 
-<br/><br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=vineet-dwivedi&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&row=1&column=6" width="80%" alt="GitHub Trophies"/>
-
-<br/><br/>
+<br/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vineet-dwivedi/vineet-dwivedi/output/github-contribution-grid-snake-dark.svg">
