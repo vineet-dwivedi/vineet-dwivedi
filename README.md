@@ -128,7 +128,7 @@ Transforms YouTube videos into structured insights and provides context-aware co
 
 | Domain             | Technologies                                                   |
 | :----------------- | :------------------------------------------------------------- |
-| **Languages**      | JavaScript · TypeScript · Python · SQL                         |
+| **Languages**      | JavaScript · TypeScript · Python ·                         |
 | **Frontend**       | React · Next.js · Redux Toolkit · GSAP                         |
 | **Backend**        | Node.js · Express · FastAPI                                    |
 | **AI / Agents**    | LangGraph · LangChain · Gemini · OpenAI                        |
