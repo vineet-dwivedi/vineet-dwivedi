@@ -120,7 +120,7 @@ Transforms YouTube videos into structured insights and provides context-aware co
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=js,py,ts,react,nextjs,nodejs,express,fastapi,mongodb,redis,docker,kubernetes,aws,git,postman&theme=dark" alt="Engineering Stack"/>
+<img src="https://skillicons.dev/icons?i=js,py,ts,react,nextjs,nodejs,express,fastapi,mongodb,postgres,redis,docker,kubernetes,aws,git,postman&theme=dark" alt="Engineering Stack"/>
 
 </div>
 
